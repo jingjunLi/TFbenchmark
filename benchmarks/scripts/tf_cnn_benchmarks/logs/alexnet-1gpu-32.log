@@ -1,0 +1,64 @@
+2017-06-15 09:41:01.266762: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:41:01.266798: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:41:01.266803: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:41:01.266807: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:41:01.266810: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:41:01.629030: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-15 09:41:01.629930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7845
+pciBusID 0000:81:00.0
+Total memory: 7.92GiB
+Free memory: 7.81GiB
+2017-06-15 09:41:01.629963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:927] DMA: 0 
+2017-06-15 09:41:01.629973: I tensorflow/core/common_runtime/gpu/gpu_device.cc:937] 0:   Y 
+2017-06-15 09:41:01.629987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.720637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.727458: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.728977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.737743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.740774: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.750637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.752905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.764567: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.767661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.782767: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.787123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.804888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.807869: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.814964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:41:01.817231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+WARNING:tensorflow:Error encountered when serializing LAYER_NAME_UIDS.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+'dict' object has no attribute 'name'
+2017-06-15 09:41:02.170552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+TensorFlow:  1.2
+Model:       alexnet
+Mode:        training
+Batch size:  32 global
+             32 per device
+Devices:     ['/gpu:0']
+Data format: NCHW
+Optimizer:   sgd
+Variables:   parameter_server
+==========
+Generating model
+Running warm up
+Done warm up
+Step	Img/sec	loss
+1	images/sec: 949.3 +/- 0.0 (jitter = 0.0)	7.249
+Starting real work at step 15 at time Thu Jun 15 09:41:06 2017
+10	images/sec: 943.0 +/- 2.6 (jitter = 4.1)	7.185
+20	images/sec: 943.5 +/- 1.7 (jitter = 3.4)	6.585
+30	images/sec: 946.5 +/- 1.4 (jitter = 3.4)	4.386
+40	images/sec: 948.4 +/- 1.2 (jitter = 6.2)	3.938
+50	images/sec: 949.3 +/- 1.0 (jitter = 5.5)	3.923
+60	images/sec: 949.2 +/- 0.9 (jitter = 4.8)	3.917
+70	images/sec: 949.9 +/- 0.8 (jitter = 4.8)	3.904
+80	images/sec: 950.2 +/- 0.7 (jitter = 4.7)	3.894
+90	images/sec: 950.0 +/- 0.6 (jitter = 4.8)	3.883
+100	images/sec: 949.6 +/- 0.6 (jitter = 5.3)	3.880
+Finishing real work at step 112 at time Thu Jun 15 09:41:09 2017
+----------------------------------------------------------------
+total images/sec: 952.80
+----------------------------------------------------------------

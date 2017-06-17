@@ -1,0 +1,154 @@
+2017-06-15 09:53:39.622665: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:53:39.622720: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:53:39.622734: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:53:39.622740: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:53:39.622746: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 09:53:39.965307: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-15 09:53:39.965965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7845
+pciBusID 0000:81:00.0
+Total memory: 7.92GiB
+Free memory: 7.81GiB
+2017-06-15 09:53:39.965987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:927] DMA: 0 
+2017-06-15 09:53:39.965994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:937] 0:   Y 
+2017-06-15 09:53:39.966004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.052956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.063885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.065860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.078787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.082939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.091869: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.094045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.104111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.108347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.124059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.127118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.141411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.144638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.151585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+2017-06-15 09:53:40.153200: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+WARNING:tensorflow:Error encountered when serializing LAYER_NAME_UIDS.
+Type is unsupported, or the types of the items don't match field type in CollectionDef.
+'dict' object has no attribute 'name'
+2017-06-15 09:53:40.607284: I tensorflow/core/common_runtime/gpu/gpu_device.cc:996] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:81:00.0)
+TensorFlow:  1.2
+Model:       alexnet
+Mode:        training
+Batch size:  256 global
+             256 per device
+Devices:     ['/gpu:0']
+Data format: NCHW
+Optimizer:   sgd
+Variables:   independent
+==========
+Generating model
+Running warm up
+Done warm up
+Step	Img/sec	loss
+Starting real work at step 10 at time Thu Jun 15 09:53:44 2017
+1	images/sec: 1724.8 +/- 0.0 (jitter = 0.0)	7.269
+10	images/sec: 1728.2 +/- 1.4 (jitter = 4.8)	7.262
+20	images/sec: 1728.5 +/- 0.8 (jitter = 4.0)	7.251
+30	images/sec: 1728.1 +/- 0.9 (jitter = 4.6)	7.233
+40	images/sec: 1726.1 +/- 1.2 (jitter = 4.7)	7.193
+50	images/sec: 1726.1 +/- 1.0 (jitter = 4.6)	7.083
+60	images/sec: 1726.2 +/- 0.8 (jitter = 4.6)	6.685
+70	images/sec: 1726.2 +/- 0.8 (jitter = 4.7)	6.086
+80	images/sec: 1726.3 +/- 0.7 (jitter = 4.8)	5.786
+90	images/sec: 1726.2 +/- 0.6 (jitter = 4.6)	5.751
+100	images/sec: 1726.1 +/- 0.6 (jitter = 4.4)	5.833
+110	images/sec: 1726.1 +/- 0.5 (jitter = 4.5)	5.790
+120	images/sec: 1726.0 +/- 0.5 (jitter = 4.2)	5.759
+130	images/sec: 1725.9 +/- 0.5 (jitter = 4.2)	5.750
+140	images/sec: 1725.9 +/- 0.5 (jitter = 4.5)	5.751
+150	images/sec: 1725.9 +/- 0.4 (jitter = 4.5)	5.760
+160	images/sec: 1726.1 +/- 0.4 (jitter = 4.6)	5.742
+170	images/sec: 1726.0 +/- 0.4 (jitter = 4.5)	5.748
+180	images/sec: 1726.1 +/- 0.4 (jitter = 4.5)	5.749
+190	images/sec: 1726.2 +/- 0.4 (jitter = 4.7)	5.754
+200	images/sec: 1726.3 +/- 0.4 (jitter = 4.6)	5.738
+210	images/sec: 1726.3 +/- 0.4 (jitter = 4.5)	5.737
+220	images/sec: 1726.4 +/- 0.4 (jitter = 4.6)	5.752
+230	images/sec: 1726.6 +/- 0.4 (jitter = 4.6)	5.782
+240	images/sec: 1726.7 +/- 0.4 (jitter = 4.8)	5.736
+250	images/sec: 1726.9 +/- 0.3 (jitter = 4.9)	5.741
+260	images/sec: 1727.0 +/- 0.3 (jitter = 5.0)	5.765
+270	images/sec: 1727.1 +/- 0.3 (jitter = 4.7)	5.742
+280	images/sec: 1727.1 +/- 0.3 (jitter = 4.7)	5.735
+290	images/sec: 1727.2 +/- 0.3 (jitter = 4.6)	5.741
+300	images/sec: 1727.2 +/- 0.3 (jitter = 4.7)	5.735
+310	images/sec: 1727.2 +/- 0.3 (jitter = 4.7)	5.746
+320	images/sec: 1727.3 +/- 0.3 (jitter = 4.7)	5.756
+330	images/sec: 1727.4 +/- 0.3 (jitter = 4.7)	5.740
+340	images/sec: 1727.4 +/- 0.3 (jitter = 4.7)	5.763
+350	images/sec: 1727.4 +/- 0.3 (jitter = 4.7)	5.734
+360	images/sec: 1727.4 +/- 0.3 (jitter = 4.7)	5.734
+370	images/sec: 1727.4 +/- 0.3 (jitter = 4.7)	5.756
+380	images/sec: 1727.5 +/- 0.3 (jitter = 4.7)	5.742
+390	images/sec: 1727.4 +/- 0.3 (jitter = 4.8)	5.755
+400	images/sec: 1727.5 +/- 0.2 (jitter = 4.7)	5.736
+410	images/sec: 1727.5 +/- 0.2 (jitter = 4.6)	5.733
+420	images/sec: 1727.5 +/- 0.2 (jitter = 4.6)	5.747
+430	images/sec: 1727.5 +/- 0.2 (jitter = 4.5)	5.737
+440	images/sec: 1727.4 +/- 0.2 (jitter = 4.5)	5.761
+450	images/sec: 1727.3 +/- 0.2 (jitter = 4.6)	5.736
+460	images/sec: 1727.3 +/- 0.2 (jitter = 4.6)	5.734
+470	images/sec: 1727.2 +/- 0.2 (jitter = 4.6)	5.733
+480	images/sec: 1727.2 +/- 0.2 (jitter = 4.6)	5.737
+490	images/sec: 1727.1 +/- 0.2 (jitter = 4.6)	5.764
+500	images/sec: 1727.0 +/- 0.2 (jitter = 4.7)	5.737
+510	images/sec: 1727.0 +/- 0.2 (jitter = 4.6)	5.734
+520	images/sec: 1727.0 +/- 0.2 (jitter = 4.7)	5.740
+530	images/sec: 1726.9 +/- 0.2 (jitter = 4.7)	5.762
+540	images/sec: 1726.9 +/- 0.2 (jitter = 4.6)	5.737
+550	images/sec: 1726.9 +/- 0.2 (jitter = 4.6)	5.734
+560	images/sec: 1726.9 +/- 0.2 (jitter = 4.6)	5.739
+570	images/sec: 1726.8 +/- 0.2 (jitter = 4.5)	5.733
+580	images/sec: 1726.8 +/- 0.2 (jitter = 4.5)	5.733
+590	images/sec: 1726.7 +/- 0.2 (jitter = 4.4)	5.742
+600	images/sec: 1726.7 +/- 0.2 (jitter = 4.4)	5.764
+610	images/sec: 1726.7 +/- 0.2 (jitter = 4.4)	5.732
+620	images/sec: 1726.7 +/- 0.2 (jitter = 4.4)	5.766
+630	images/sec: 1726.6 +/- 0.2 (jitter = 4.3)	5.732
+640	images/sec: 1726.6 +/- 0.2 (jitter = 4.3)	5.732
+650	images/sec: 1726.6 +/- 0.2 (jitter = 4.3)	5.740
+660	images/sec: 1726.5 +/- 0.2 (jitter = 4.4)	5.749
+670	images/sec: 1726.4 +/- 0.2 (jitter = 4.4)	5.732
+680	images/sec: 1726.4 +/- 0.2 (jitter = 4.4)	5.741
+690	images/sec: 1726.4 +/- 0.2 (jitter = 4.4)	5.738
+700	images/sec: 1726.3 +/- 0.2 (jitter = 4.4)	5.760
+710	images/sec: 1726.3 +/- 0.2 (jitter = 4.3)	5.748
+720	images/sec: 1726.3 +/- 0.2 (jitter = 4.3)	5.732
+730	images/sec: 1726.2 +/- 0.2 (jitter = 4.4)	5.752
+740	images/sec: 1726.2 +/- 0.2 (jitter = 4.4)	5.757
+750	images/sec: 1726.1 +/- 0.2 (jitter = 4.4)	5.737
+760	images/sec: 1726.1 +/- 0.2 (jitter = 4.4)	5.732
+770	images/sec: 1726.0 +/- 0.2 (jitter = 4.4)	5.756
+780	images/sec: 1726.0 +/- 0.2 (jitter = 4.5)	5.738
+790	images/sec: 1725.9 +/- 0.2 (jitter = 4.5)	5.733
+800	images/sec: 1725.9 +/- 0.2 (jitter = 4.5)	5.733
+810	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.751
+820	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.735
+830	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.748
+840	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.737
+850	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.749
+860	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.736
+870	images/sec: 1725.8 +/- 0.2 (jitter = 4.5)	5.747
+880	images/sec: 1725.7 +/- 0.2 (jitter = 4.5)	5.736
+890	images/sec: 1725.7 +/- 0.2 (jitter = 4.4)	5.747
+900	images/sec: 1725.7 +/- 0.2 (jitter = 4.5)	5.736
+910	images/sec: 1725.6 +/- 0.2 (jitter = 4.5)	5.746
+920	images/sec: 1725.6 +/- 0.2 (jitter = 4.5)	5.737
+930	images/sec: 1725.6 +/- 0.2 (jitter = 4.5)	5.745
+940	images/sec: 1725.6 +/- 0.2 (jitter = 4.5)	5.737
+950	images/sec: 1725.5 +/- 0.2 (jitter = 4.4)	5.745
+960	images/sec: 1725.5 +/- 0.2 (jitter = 4.4)	5.737
+970	images/sec: 1725.5 +/- 0.2 (jitter = 4.4)	5.744
+980	images/sec: 1725.5 +/- 0.2 (jitter = 4.4)	5.738
+990	images/sec: 1725.5 +/- 0.2 (jitter = 4.4)	5.743
+1000	images/sec: 1725.4 +/- 0.2 (jitter = 4.4)	5.738
+Finishing real work at step 1010 at time Thu Jun 15 09:56:13 2017
+----------------------------------------------------------------
+total images/sec: 1724.45
+----------------------------------------------------------------

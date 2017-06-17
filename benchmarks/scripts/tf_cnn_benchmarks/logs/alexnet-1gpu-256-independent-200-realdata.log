@@ -1,0 +1,40 @@
+TensorFlow:  1.2
+Model:       alexnet
+Mode:        training
+Batch size:  256 global
+             256 per device
+Devices:     ['/gpu:0']
+Data format: NCHW
+Optimizer:   sgd
+Variables:   independent
+==========
+Generating model
+Running warm up
+Done warm up
+Step	Img/sec	loss
+Starting real work at step 10 at time Thu Jun 15 20:16:32 2017
+1	images/sec: 571.4 +/- 0.0 (jitter = 0.0)	7.279
+10	images/sec: 632.2 +/- 20.6 (jitter = 84.4)	7.281
+20	images/sec: 621.4 +/- 14.0 (jitter = 72.2)	7.277
+30	images/sec: 606.1 +/- 13.6 (jitter = 80.7)	7.281
+40	images/sec: 618.7 +/- 11.1 (jitter = 78.7)	7.278
+50	images/sec: 620.0 +/- 9.9 (jitter = 78.7)	7.277
+60	images/sec: 624.4 +/- 8.6 (jitter = 76.6)	7.280
+70	images/sec: 626.5 +/- 7.5 (jitter = 70.1)	7.277
+80	images/sec: 624.9 +/- 6.9 (jitter = 70.0)	7.277
+90	images/sec: 626.4 +/- 6.4 (jitter = 63.8)	7.276
+100	images/sec: 625.4 +/- 5.9 (jitter = 59.9)	7.277
+110	images/sec: 627.0 +/- 5.7 (jitter = 62.3)	7.280
+120	images/sec: 627.8 +/- 5.4 (jitter = 62.3)	7.281
+130	images/sec: 628.0 +/- 5.1 (jitter = 62.5)	7.280
+140	images/sec: 629.7 +/- 4.9 (jitter = 60.2)	7.276
+150	images/sec: 628.6 +/- 4.7 (jitter = 59.9)	7.275
+160	images/sec: 630.2 +/- 4.5 (jitter = 61.1)	7.274
+170	images/sec: 629.3 +/- 4.3 (jitter = 59.6)	7.276
+180	images/sec: 630.1 +/- 4.2 (jitter = 56.9)	7.280
+190	images/sec: 632.1 +/- 4.1 (jitter = 58.2)	7.274
+Finishing real work at step 209 at time Thu Jun 15 20:17:53 2017
+200	images/sec: 631.9 +/- 4.0 (jitter = 59.1)	7.277
+----------------------------------------------------------------
+total images/sec: 631.17
+----------------------------------------------------------------
